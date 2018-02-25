@@ -1,0 +1,13 @@
+FixedBidder
+The simplest bidder for test purpose. Always bids with const value
+
+RandomBidder
+Another trivial bidder also for test purpose. Every bid is generated using random number. Unpredictable result.
+
+StatBidder
+This bidder uses statistics from its opponent to get the most favorite bid and bid it the same but +1.
+Statistics is accumulated at every round
+
+StatWeightedBidder
+This bidder is improved version of previous one. It accounts the fact that not all bids are equivalent and adds weight
+to statistics logic.
